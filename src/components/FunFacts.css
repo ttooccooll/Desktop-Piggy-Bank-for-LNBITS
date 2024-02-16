@@ -1,5 +1,5 @@
 .total-btc {
-    font-size: 50px;
+    font-size: 35px;
     color: rgb(159, 9, 152);
     margin: 10px;
     background-color: aqua;
@@ -10,6 +10,8 @@
     align-items: center;
     animation-name: animatetop;
     animation-duration: 1s;
+    width: 275px;
+    height: 225px
   }
   
   .total-btc:hover {

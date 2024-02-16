@@ -32,6 +32,7 @@
   justify-content: center;
   align-items: center;
   z-index: 99999;
+  width: 1158px;
 }
 
 .modal-content-centered {
@@ -45,17 +46,20 @@
   text-align: center;
   z-index: 99999;
   margin-top: 1%;
+  width: 900px;
+  flex-wrap: wrap;
 }
 
 .modal-inner {
   display: flex;
   flex-direction: row;
-  height: 90vh;
-  width: 90vw;
+  height: 50vh;
+  width: 50vw;
   overflow: wrap;
-  justify-content: space-between;
-  align-items: space-between;
+  justify-content: center;
+  align-items: center;
   z-index: 999999;
+  flex-wrap: wrap;
 }
 
 .close {
