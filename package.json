@@ -1,5 +1,6 @@
 {
   "name": "lnbits_piggy_bank",
+  "productName": "Piggy Bank for LNBITS",
   "version": "0.1.0",
   "main": "main.js",
   "private": true,
@@ -26,7 +27,7 @@
   "scripts": {
     "start": "BROWSER=none react-scripts start & sleep 5 && npm run electron-start",
     "react-start": "BROWSER=none react-scripts start",
-    "electron-start": "electron .",
+    "electron-start": "BROWSER=none react-scripts start & sleep 5 && electron .",
     "react-build": "react-scripts build",
     "react-test": "react-scripts test",
     "react-eject": "react-scripts eject",
@@ -56,6 +57,7 @@
   "devDependencies": {
     "electron": "^28.2.3",
     "electron-builder": "^24.9.1",
+    "electron-packager": "^17.1.2",
     "wait-on": "^7.2.0"
   },
   "build": {
